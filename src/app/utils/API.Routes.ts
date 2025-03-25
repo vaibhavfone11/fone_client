@@ -1,28 +1,4 @@
-export enum MASTER {
-    ROLE_GET = '/master/role',
-    PROJECT_TYPE_GET = '/master/projecttype',
-    DRAWING_CATEGORY_GET = '/master/drawingcategory',
-    DRAWING_TYPE_GET = '/master/drawingtype',
-    VENDOR_TYPE_GET = '/master/vendortype',
-    TASK_CATEGORY_GET = '/master/taskcategory',
-    TASK_PRIORITY_GET = '/master/taskpriority',
-    TASK_WORKTYPE_GET = '/master/taskworktype',
-    TASK_STATUS_GET = '/master/taskstatus',
-    RESOURCE_UNIT_GET = '/master/resourceunit',
-    RESOURCE_CATEGORY_GET = '/master/resourcecategory',
-    DESIGNATION_GET = '/master/designation',
-    LABOR_TYPE_GET = '/master/labourtype',
-    MACHINARY_TYPE_GET = '/master/machinarytype',
-    BILLING_CYCLE_TYPE_GET = '/master/billingcycletype',
-    SCHEDULE_COST_IMPECT_GET = '/master/schedulecostimpect',
-    BALL_IN_COURT_GET = '/master/ballincourt',
-    TASK_PREDECESSOR_TYPE_GET = '/master/taskpredecessortype',
-    CURRENCY_TYPE_GET = '/master/currency',
-    MEMBER_TYPE_GET = '/master/membertype',
-    GET_POSTCODE_DATA = '/master/postcode',
-    // GET_LATITUDE_LONGITUDE = '/master/latitudelongitude',
-    GET_COUNTRY = '/master/country',
-}
+
 
 export enum ROLE {
     USERS_AUTHENTICATE = '/user/authenticate',
